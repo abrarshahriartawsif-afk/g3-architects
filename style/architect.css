@@ -19,6 +19,9 @@
  .dark-3{
 color: #727272;
  }
+ .orange{
+    color: #FF900E;
+ }
 .bg{
     background-color:rgba(255, 144, 14, 0.1) ;
 }
@@ -30,7 +33,13 @@ color: #727272;
     font-size: 1.25rem;
     border: none;
 }
-  
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section {
+    margin-top:130px ;
+}
 /* header style */
 
 
@@ -69,6 +78,28 @@ color: #727272;
 .banner-image{
 width: 100%;
 }
+/* team and featuers related style */
+.teams{
+ align-items: center;
+
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-featuers{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.featuers-title{
+ font-weight: bold;
+ font-size: 45px;
+}
+.Quick-list{
+   font-weight: 400;
+}
+
 /* RESPONSIVE MEDIA QUERY */
 @media screen and (max-width:576px ) {
     .navber ,.nav-link{
